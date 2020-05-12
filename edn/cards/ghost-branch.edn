@@ -7,6 +7,6 @@
  :subtype [:ambush :facility]
  :text "Ghost Branch can be advanced.\nWhen the Runner accesses Ghost Branch, you may give the Runner 1 tag for each advancement token on Ghost Branch."
  :title "Ghost Branch"
- :trash-cost 0
+ :trash-cost 3
  :type :asset
  :uniqueness false}
