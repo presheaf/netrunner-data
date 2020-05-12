@@ -1,5 +1,5 @@
-[{:id "standard"
-  :name "Standard"
+[{:id "reboot"
+  :name "Reboot"
   :sets ["core-set"
          "creation-and-control"]
   :cycles ["genesis"
