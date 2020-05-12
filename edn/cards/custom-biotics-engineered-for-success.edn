@@ -1,7 +1,7 @@
 {:deck-limit 1
  :faction :haas-bioroid
  :id "custom-biotics-engineered-for-success"
- :influence-limit 22
+ :influence-limit 25
  :minimum-deck-size 45
  :side :corp
  :subtype [:division]

@@ -6,6 +6,6 @@
  :side :corp
  :text "X[recurring-credit]\nUse these credits during traces. X is the number of links the Runner has."
  :title "Net Police"
- :trash-cost 1
+ :trash-cost 5
  :type :asset
  :uniqueness false}

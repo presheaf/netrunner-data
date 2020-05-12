@@ -7,6 +7,6 @@
  :subtype [:facility]
  :text "GRNDL Refinery can be advanced.\n[click], [trash]: Gain 4[credit] for each advancement token on GRNDL Refinery."
  :title "GRNDL Refinery"
- :trash-cost 2
+ :trash-cost 4
  :type :asset
  :uniqueness false}

@@ -7,6 +7,6 @@
  :subtype [:hostile]
  :text "If the Runner is tagged, Dedicated Response Team gains \"Whenever a successful run ends, do 2 meat damage.\""
  :title "Dedicated Response Team"
- :trash-cost 3
+ :trash-cost 4
  :type :asset
  :uniqueness false}

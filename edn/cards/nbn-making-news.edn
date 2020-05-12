@@ -1,7 +1,7 @@
 {:deck-limit 1
  :faction :nbn
  :id "nbn-making-news"
- :influence-limit 15
+ :influence-limit 17
  :minimum-deck-size 45
  :side :corp
  :subtype [:megacorp]

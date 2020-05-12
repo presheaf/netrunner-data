@@ -1,7 +1,7 @@
 {:deck-limit 1
  :faction :haas-bioroid
  :id "haas-bioroid-engineering-the-future"
- :influence-limit 15
+ :influence-limit 10
  :minimum-deck-size 45
  :side :corp
  :subtype [:megacorp]

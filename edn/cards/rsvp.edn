@@ -4,7 +4,7 @@
  :id "rsvp"
  :influence-cost 2
  :side :corp
- :strength 4
+ :strength 5
  :subtype [:code-gate]
  :text "[subroutine] The Runner cannot spend any credits for the remainder of this run."
  :title "RSVP"

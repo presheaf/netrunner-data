@@ -7,6 +7,6 @@
  :subtype [:sysop]
  :text "Once per run, when the Runner approaches a piece of ice protecting this server, you may swap that ice with a piece of ice from HQ. The new ice is installed unrezzed."
  :title "Midori"
- :trash-cost 3
+ :trash-cost 5
  :type :upgrade
  :uniqueness true}

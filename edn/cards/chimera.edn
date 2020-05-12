@@ -4,7 +4,7 @@
  :id "chimera"
  :influence-cost 0
  :side :corp
- :strength 0
+ :strength 1
  :subtype [:mythic]
  :text "When you rez Chimera, choose <strong>sentry</strong>, <strong>code gate</strong>, or <strong>barrier</strong>. Chimera gains that subtype until derezzed.\nWhen a turn ends, derez Chimera.\n[subroutine] End the run."
  :title "Chimera"

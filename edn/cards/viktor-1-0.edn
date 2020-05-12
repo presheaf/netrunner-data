@@ -4,7 +4,7 @@
  :id "viktor-1-0"
  :influence-cost 2
  :side :corp
- :strength 3
+ :strength 4
  :subtype [:code-gate :bioroid :ap]
  :text "The Runner can spend [click] to break any subroutine on Viktor 1.0.\n[subroutine] Do 1 brain damage.\n[subroutine] End the run."
  :title "Viktor 1.0"

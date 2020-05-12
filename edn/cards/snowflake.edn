@@ -4,7 +4,7 @@
  :id "snowflake"
  :influence-cost 2
  :side :corp
- :strength 3
+ :strength 4
  :subtype [:barrier :psi]
  :text "[subroutine] You and the Runner secretly spend 0[credit], 1[credit], or 2[credit]. Reveal spent credits. End the run if you and the Runner spent a different number of credits."
  :title "Snowflake"
