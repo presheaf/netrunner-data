@@ -5,7 +5,7 @@
  :influence-cost 2
  :side :runner
  :subtype [:link]
- :text "+1[link]\nYour maximum hand size is increased by 1."
+ :text "+1[link]\nYour maximum hand size is increased by 3."
  :title "Borrowed Satellite"
  :type :resource
  :uniqueness false}

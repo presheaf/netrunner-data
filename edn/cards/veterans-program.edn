@@ -6,7 +6,7 @@
  :influence-cost 0
  :side :corp
  :subtype [:initiative]
- :text "When you score Veterans Program, you may remove up to 2 bad publicity."
+ :text "When you score Veterans Program, you may remove up to 3 bad publicity."
  :title "Veterans Program"
  :type :agenda
  :uniqueness false}

@@ -5,7 +5,7 @@
  :influence-cost 1
  :side :corp
  :subtype [:executive]
- :text "Thomas Haas can be advanced.\n[trash]: Gain 2[credit] for each advancement token on Thomas Haas."
+ :text "Thomas Haas can be advanced.\n[trash]: Gain 3[credit] for each advancement token on Thomas Haas."
  :title "Thomas Haas"
  :trash-cost 1
  :type :asset

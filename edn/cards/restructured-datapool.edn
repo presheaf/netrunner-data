@@ -5,7 +5,7 @@
  :id "restructured-datapool"
  :side :corp
  :subtype [:initiative]
- :text "[click]: <trace>Trace 2</trace> If successful, give the Runner 1 tag."
+ :text "[click]: <trace>Trace 3</trace> If successful, give the Runner 1 tag."
  :title "Restructured Datapool"
  :type :agenda
  :uniqueness false}

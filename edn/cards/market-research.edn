@@ -5,7 +5,7 @@
  :id "market-research"
  :side :corp
  :subtype [:research]
- :text "If the Runner is tagged when you score Market Research, place 1 agenda counter on it.\nMarket Research is worth 1 additional agenda point while it has an agenda counter on it."
+ :text "If the Runner is tagged when you score Market Research, place 1 agenda counter on it.\nMarket Research is worth 2 additional agenda point while it has an agenda counter on it."
  :title "Market Research"
  :type :agenda
  :uniqueness false}

@@ -4,7 +4,7 @@
  :id "experiential-data"
  :influence-cost 1
  :side :corp
- :text "All ice protecting this server has +1 strength."
+ :text "All ice protecting this server has +2 strength."
  :title "Experiential Data"
  :trash-cost 2
  :type :upgrade

@@ -5,7 +5,7 @@
  :influence-cost 1
  :side :corp
  :subtype [:transaction]
- :text "Play only if the Runner made an unsuccessful run during his or her last turn.\nGain 7[credit]."
+ :text "Play only if the Runner made an unsuccessful run during his or her last turn.\nGain 8[credit]."
  :title "Successful Demonstration"
  :type :operation
  :uniqueness false}

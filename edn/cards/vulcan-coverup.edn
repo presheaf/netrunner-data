@@ -5,7 +5,7 @@
  :id "vulcan-coverup"
  :side :corp
  :subtype [:security]
- :text "When you score Vulcan Coverup, do 2 meat damage.\nWhen the Runner steals Vulcan Coverup, take 1 bad publicity."
+ :text "When you score Vulcan Coverup, do 3 meat damage.\nWhen the Runner steals Vulcan Coverup, take 1 bad publicity."
  :title "Vulcan Coverup"
  :type :agenda
  :uniqueness false}

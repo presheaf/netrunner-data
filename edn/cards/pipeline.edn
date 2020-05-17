@@ -7,7 +7,7 @@
  :side :runner
  :strength 1
  :subtype [:icebreaker :killer]
- :text "1[credit]: Break <strong>sentry</strong> subroutine.\n2[credit]: +1 strength for the remainder of this run."
+ :text "1[credit]: Break <strong>sentry</strong> subroutine.\n2[credit]: +2 strength for the remainder of this run."
  :title "Pipeline"
  :type :program
  :uniqueness false}

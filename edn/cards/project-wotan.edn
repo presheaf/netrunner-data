@@ -5,7 +5,7 @@
  :id "project-wotan"
  :side :corp
  :subtype [:research]
- :text "Place 3 agenda counters on Project Wotan when you score it.\n<strong>Hosted agenda counter:</strong> Choose a rezzed piece of <strong>bioroid</strong> ice currently being approached. For the remainder of this run, that ice gains \"[subroutine] End the run.\" after all its other subroutines."
+ :text "Place 6 agenda counters on Project Wotan when you score it.\n<strong>Hosted agenda counter:</strong> Choose a rezzed piece of <strong>bioroid</strong> ice currently being approached. For the remainder of this run, that ice gains \"[subroutine] End the run.\" after all its other subroutines."
  :title "Project Wotan"
  :type :agenda
  :uniqueness false}

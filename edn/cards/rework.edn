@@ -4,7 +4,7 @@
  :id "rework"
  :influence-cost 1
  :side :corp
- :text "Shuffle 1 card from HQ into R&D."
+ :text "Shuffle up to 3 cards from HQ into R&D."
  :title "Rework"
  :type :operation
  :uniqueness false}

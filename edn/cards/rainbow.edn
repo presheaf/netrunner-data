@@ -4,7 +4,7 @@
  :id "rainbow"
  :influence-cost 0
  :side :corp
- :strength 4
+ :strength 5
  :subtype [:sentry :code-gate :barrier]
  :text "[subroutine] End the run."
  :title "Rainbow"

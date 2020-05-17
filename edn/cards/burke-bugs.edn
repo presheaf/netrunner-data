@@ -6,7 +6,7 @@
  :side :corp
  :strength 0
  :subtype [:sentry :destroyer]
- :text "[subroutine] <trace>Trace 0</trace> If successful, the Runner trashes 1 program."
+ :text "[subroutine] <trace>Trace 4</trace> If successful, the Runner trashes 1 program."
  :title "Burke Bugs"
  :type :ice
  :uniqueness false}

@@ -4,7 +4,7 @@
  :id "midseason-replacements"
  :influence-cost 4
  :side :corp
- :text "Play only if the Runner stole an agenda during his or her last turn.\n<trace>Trace 6</trace> If successful, give the Runner tags equal to the amount by which your trace strength exceeded his or her link strength."
+ :text "Play only if the Runner stole an agenda during his or her last turn.\n<trace>Trace 2</trace> If successful, give the Runner tags equal to the amount by which your trace strength exceeded his or her link strength."
  :title "Midseason Replacements"
  :type :operation
  :uniqueness false}

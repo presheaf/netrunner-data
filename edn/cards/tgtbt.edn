@@ -5,7 +5,7 @@
  :id "tgtbt"
  :side :corp
  :subtype [:ambush]
- :text "If TGTBT is accessed from R&D, the Runner must reveal it.\nWhen the Runner accesses TGTBT, give the Runner 1 tag."
+ :text "If TGTBT is accessed from R&D, the Runner must reveal it.\nWhen the Runner accesses TGTBT, give the Runner 2 tags."
  :title "TGTBT"
  :type :agenda
  :uniqueness false}

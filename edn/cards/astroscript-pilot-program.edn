@@ -4,7 +4,7 @@
  :id "astroscript-pilot-program"
  :side :corp
  :subtype [:initiative]
- :text "Place 1 agenda counter on AstroScript Pilot Program when you score it.\n<strong>Hosted agenda counter:</strong> Place 1 advancement token on a card that can be advanced.\nLimit 1 per deck.\n<errata>Errata from FAQ 3.1</errata>"
+ :text "Place 1 agenda counter on AstroScript Pilot Program when you score it.\n<strong>Hosted agenda counter:</strong> Place 1 advancement token on a card that can be advanced that was not installed this turn."
  :title "AstroScript Pilot Program"
  :type :agenda
  :uniqueness false}

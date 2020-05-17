@@ -5,7 +5,7 @@
  :influence-cost 0
  :side :corp
  :subtype [:gray-ops]
- :text "Play only if the Runner is tagged.\nTrash up to 2 resources."
+ :text "Play only if the Runner is tagged.\nTrash up to 4 resources."
  :title "Freelancer"
  :type :operation
  :uniqueness false}

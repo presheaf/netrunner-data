@@ -5,7 +5,7 @@
  :influence-cost 1
  :side :corp
  :subtype [:transaction]
- :text "[click], <strong>trash a rezzed piece of ice:</strong> Gain 4[credit]."
+ :text "[click], <strong>trash a rezzed piece of ice:</strong> Gain 6[credit]."
  :title "Security Subcontract"
  :trash-cost 3
  :type :asset
