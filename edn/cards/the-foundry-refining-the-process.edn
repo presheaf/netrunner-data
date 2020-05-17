@@ -1,7 +1,7 @@
 {:deck-limit 1
  :faction :haas-bioroid
  :id "the-foundry-refining-the-process"
- :influence-limit 15
+ :influence-limit 17
  :minimum-deck-size 45
  :side :corp
  :subtype [:division]

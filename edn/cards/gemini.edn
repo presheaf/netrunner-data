@@ -6,7 +6,7 @@
  :side :corp
  :strength 5
  :subtype [:sentry :tracer :ap]
- :text "[subroutine] <trace>Trace 2</trace> If successful, do 1 net damage. If your trace strength is 5 or greater, do 1 net damage."
+ :text "[subroutine] <trace>Trace 4</trace> If successful, do 1 net damage. If your trace strength is 5 or greater, do 1 net damage."
  :title "Gemini"
  :type :ice
  :uniqueness false}

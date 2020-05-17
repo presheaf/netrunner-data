@@ -6,6 +6,6 @@
  :side :corp
  :text "Whenever the Runner trashes a Corp card (including Hostile Infrastructure), do 1 net damage."
  :title "Hostile Infrastructure"
- :trash-cost 5
+ :trash-cost 4
  :type :asset
  :uniqueness false}

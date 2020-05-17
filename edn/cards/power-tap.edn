@@ -7,4 +7,4 @@
  :text "Gain 1[credit] whenever a trace is initiated."
  :title "Power Tap"
  :type :resource
- :uniqueness false}
+ :uniqueness true}

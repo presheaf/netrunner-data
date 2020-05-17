@@ -6,6 +6,6 @@
  :side :corp
  :text "2[recurring-credit]\nUse these credits to install ice protecting this server."
  :title "Dedicated Technician Team"
- :trash-cost 1
+ :trash-cost 5
  :type :upgrade
  :uniqueness false}

@@ -5,7 +5,7 @@
  :influence-cost 2
  :memory-cost 2
  :side :runner
- :text "Draw 1 card whenever the Corp rezzes a piece of ice."
+ :text "Draw 2 cards whenever the Corp rezzes a piece of ice."
  :title "Collective Consciousness"
  :type :program
  :uniqueness false}

@@ -4,7 +4,7 @@
  :id "changeling"
  :influence-cost 2
  :side :corp
- :strength 4
+ :strength 5
  :subtype [:barrier :morph]
  :text "Changeling can be advanced.\nWhile Changeling has an odd number of advancement tokens on it, it gains <strong>sentry</strong> and loses <strong>barrier</strong>.\n[subroutine] End the run."
  :title "Changeling"

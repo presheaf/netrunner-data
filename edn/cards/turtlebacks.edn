@@ -9,4 +9,4 @@
  :title "Turtlebacks"
  :trash-cost 4
  :type :asset
- :uniqueness false}
+ :uniqueness true}

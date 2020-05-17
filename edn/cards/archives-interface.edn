@@ -4,7 +4,7 @@
  :id "archives-interface"
  :influence-cost 2
  :side :runner
- :text "Whenever you access cards in Archives, you may remove 1 card in Archives from the game, instead of accessing it."
+ :text "Whenever you access cards in Archives, you may remove up to 3 cards in Archives from the game, instead of accessing them."
  :title "Archives Interface"
  :type :hardware
  :uniqueness false}

@@ -4,7 +4,7 @@
  :id "searchlight"
  :influence-cost 1
  :side :corp
- :strength 3
+ :strength 4
  :subtype [:sentry :tracer :observer]
  :text "Searchlight can be advanced. X is the number of advancement tokens on Searchlight.\n[subroutine]<trace>Trace X</trace> If successful, give the Runner 1 tag.\n[subroutine]<trace>Trace X</trace> If successful, give the Runner 1 tag."
  :title "Searchlight"

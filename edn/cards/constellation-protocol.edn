@@ -4,7 +4,7 @@
  :id "constellation-protocol"
  :influence-cost 2
  :side :corp
- :text "When your turn begins, you may move an advancement token from a piece of ice to an installed piece of ice that can be advanced."
+ :text "When your turn begins, you may move up to 3 advancement tokens from a piece of ice to an installed piece of ice that can be advanced."
  :title "Constellation Protocol"
  :trash-cost 4
  :type :asset

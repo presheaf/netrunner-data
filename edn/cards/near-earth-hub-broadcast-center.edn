@@ -1,7 +1,7 @@
 {:deck-limit 1
  :faction :nbn
  :id "near-earth-hub-broadcast-center"
- :influence-limit 17
+ :influence-limit 12
  :minimum-deck-size 45
  :side :corp
  :subtype [:division]

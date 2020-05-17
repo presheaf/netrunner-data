@@ -5,7 +5,7 @@
  :id "firmware-updates"
  :side :corp
  :subtype [:security]
- :text "Place 3 agenda counters on Firmware Updates when you score it.\n<strong>Hosted agenda counter:</strong> Place 1 advancement token on a piece of ice that can be advanced. Use this ability only once per turn."
+ :text "Place 3 agenda counters on Firmware Updates when you score it.\n<strong>Hosted agenda counter:</strong> Place 2 advancement tokens on a piece of ice that can be advanced. Use this ability only once per turn."
  :title "Firmware Updates"
  :type :agenda
  :uniqueness false}
