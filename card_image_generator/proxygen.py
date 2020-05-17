@@ -165,7 +165,10 @@ for item in [
             continue
 
     text = str(text)
-    pos = tuple(template_dict[item]['loc'])
+    pos = template_dict[item]['loc']
+    if type(pos) is dict:
+        pos = pos[card_dict['faction']]
+    pos = tuple(pos)
     font_path = str(resource_dir / template_dict[item]['font'])
     font_size = template_dict[item]['fontsize']
     font_color = tuple(template_dict[item].get('fontcolor', (0, 0, 0)))
