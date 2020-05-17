@@ -1,9 +1,27 @@
 title:
-  loc: [104, 18]
+  loc:
+    anarch: &rtloc [104, 18]
+    shaper: *rtloc
+    criminal: *rtloc
+    neutral-runner: *rtloc
+    weyland-consortium: &ctloc [59, 28]
+    jinteki: *ctloc
+    haas-bioroid: *ctloc
+    nbn: *ctloc
+    neutral-corp: *ctloc
   font: fonts/titlefont.otf
   fontsize: 14
 subtitle:                       # e.g. "Dispossessed Ristie"
-  loc: [145, 41]
+  loc:
+    anarch: &rstloc [145, 41]
+    shaper: *rstloc
+    criminal: *rstloc
+    neutral-runner: *rstloc
+    weyland-consortium: &cstloc [28, 55]
+    jinteki: *cstloc
+    haas-bioroid: *cstloc
+    nbn: *cstloc
+    neutral-corp: *cstloc
   font: fonts/titlefont.otf
   fontsize: 12
 subtype:
@@ -14,15 +32,34 @@ base-link:
   loc: [20, 22]
   font: fonts/numeralfont.otf
   fontsize: 32
-  color: [255, 255, 255]
+  fontcolor: [255, 255, 255]
 minimum-deck-size:
-  loc: [268, 390]
+  loc: 
+    anarch: &rmdsloc [268, 390]
+    shaper: *rmdsloc
+    criminal: *rmdsloc
+    neutral-runner: *rmdsloc
+    weyland-consortium: &cmdsloc [20, 388]
+    jinteki: *cmdsloc
+    haas-bioroid: *cmdsloc
+    nbn: *cmdsloc
+    neutral-corp: *cmdsloc
   font: fonts/numeralfont.otf
   fontsize: 16
 influence-limit:
-  loc: [268, 413]
+  loc: 
+    anarch: &rinfloc [268, 413]
+    shaper: *rinfloc
+    criminal: *rinfloc
+    neutral-runner: *rinfloc
+    weyland-consortium: &cinfloc [20, 413]
+    jinteki: *cinfloc
+    haas-bioroid: *cinfloc
+    nbn: *cinfloc
+    neutral-corp: *cinfloc
   font: fonts/numeralfont.otf
   fontsize: 16
+  fontcolor: [255, 255, 255]
 text:
   loc: [45, 352]
   font: fonts/textfont.otf
