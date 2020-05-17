@@ -1,9 +1,12 @@
 [{:id "reboot"
   :name "Reboot"
   :sets ["core-set"
-         "creation-and-control"]
+         "creation-and-control"
+         "honor-and-profit"
+         "order-and-chaos"]
   :cycles ["genesis"
-           "spin"]
+           "spin"
+           "lunar"]
   :mwl nil}
  {:id "everything"
   :name "Everything"
