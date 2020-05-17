@@ -1,0 +1,37 @@
+title:
+  loc: [34, 227]
+  font: fonts/titlefont.otf
+  fontsize: 14
+subtype:
+  loc: [89, 258]
+  font: fonts/subtypefont.otf
+  fontsize: 12
+cost:
+  center: True
+  loc: [37, 29]
+  font: fonts/numeralfont.otf
+  fontsize: 23
+  fontcolor: [255, 255, 255]
+trash-cost:
+  loc: [273, 372]
+  font: fonts/numeralfont.otf
+  fontsize: 20
+  fontcolor: [152, 130, 119]
+influence-1:
+  loc: [47, 411]
+influence-2:
+  loc: [64, 411]
+text:
+  loc: [35, 285]
+  font: fonts/textfont.otf
+  fontsize: 14
+  width:  225
+  height: 104
+atoms:
+  influence-pip:      atoms/influence_pip.png
+template_image:
+  weyland-consortium: asset/asset_weyland.png
+  jinteki:            asset/asset_jinteki.png
+  haas-bioroid:       asset/asset_hb.png
+  nbn:                asset/asset_nbn.png
+  neutral-corp:       asset/asset_neutral_corp.png

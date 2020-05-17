@@ -1,0 +1,46 @@
+title:
+  loc: [76, 21]
+  font: fonts/titlefont.otf
+  fontsize: 14
+subtype:
+  rotation: 90
+  loc: [21, 83]
+  font: fonts/subtypefont.otf
+  fontsize: 12
+cost:
+  center: True
+  loc: [36, 28]
+  font: fonts/numeralfont.otf
+  fontsize: 23
+  fontcolor: [255, 255, 255]
+strength:
+  rotation: 90
+  loc: [7, 402]
+  font: fonts/numeralfont.otf
+  fontsize: 30
+trashcan:
+  loc: [255, 200] # ?
+trash-cost:
+  loc: [260, 208] # ?
+  font: fonts/numeralfont.otf
+  fontsize: 20
+  fontcolor: [152, 130, 119]
+influence-1:
+  loc: [287, 380]
+influence-2:
+  loc: [287, 363]
+text:
+  loc: [68, 73]
+  font: fonts/textfont.otf
+  fontsize: 14
+  width:  202
+  height: 150
+atoms:
+  influence-pip:      atoms/influence_pip.png
+  trashcan:           atoms/trashcan.png
+template_image:
+  weyland-consortium: ice/ice_weyland.png
+  jinteki:            ice/ice_jinteki.png
+  haas-bioroid:       ice/ice_hb.png
+  nbn:                ice/ice_nbn.png
+  neutral-corp:       ice/ice_neutral_corp.png

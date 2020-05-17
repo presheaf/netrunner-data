@@ -1,0 +1,34 @@
+title:
+  loc: [68, 18]
+  font: fonts/titlefont.otf
+  fontsize: 14
+subtype:
+  loc: [83, 280]
+  font: fonts/subtypefont.otf
+  fontsize: 12
+cost:
+  center: True
+  loc: [35, 32]
+  font: fonts/numeralfont.otf
+  fontsize: 23
+  fontcolor: [255, 255, 255]
+text:
+  loc: [36, 305]
+  font: fonts/textfont.otf
+  fontsize: 14
+  width:  245
+  height: 100
+influence-1:
+  loc: [289, 384]
+influence-2:
+  loc: [289, 367]
+atoms:
+  influence-pip:  atoms/influence_pip.png
+template_image:
+  shaper:         event/event_shaper.png
+  criminal:       event/event_criminal.png
+  anarch:         event/event_anarch.png
+  neutral-runner: event/event_neutral_runner.png
+  sunny:          event/event_sunny.png
+  apex:           event/event_apex.png
+  adam:           event/event_adam.png

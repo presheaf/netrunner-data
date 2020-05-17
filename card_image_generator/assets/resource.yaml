@@ -1,0 +1,34 @@
+title:
+  loc: [75, 17]
+  font: fonts/titlefont.otf
+  fontsize: 14
+subtype:
+  loc: [100, 219]
+  font: fonts/subtypefont.otf
+  fontsize: 12
+cost:
+  center: True
+  loc: [36, 31]
+  font: fonts/numeralfont.otf
+  fontsize: 23
+  fontcolor: [255, 255, 255]
+text:
+  loc: [22, 246]
+  font: fonts/textfont.otf
+  fontsize: 14
+  width:  231
+  height: 144
+influence-1:
+  loc: [290, 385]
+influence-2:
+  loc: [290, 368]
+atoms:
+  influence-pip:  atoms/influence_pip.png
+template_image:
+  shaper:         resource/resource_shaper.png
+  criminal:       resource/resource_criminal.png
+  anarch:         resource/resource_anarch.png
+  neutral-runner: resource/resource_neutral_runner.png
+  sunny:          resource/resource_sunny.png
+  apex:           resource/resource_apex.png
+  adam:           resource/resource_adam.png

@@ -1,0 +1,44 @@
+title:
+  loc: [104, 18]
+  font: fonts/titlefont.otf
+  fontsize: 14
+subtitle:                       # e.g. "Dispossessed Ristie"
+  loc: [145, 41]
+  font: fonts/titlefont.otf
+  fontsize: 12
+subtype:
+  loc: [113, 333]
+  font: fonts/subtypefont.otf
+  fontsize: 12
+base-link:
+  loc: [20, 22]
+  font: fonts/numeralfont.otf
+  fontsize: 32
+  color: [255, 255, 255]
+minimum-deck-size:
+  loc: [268, 390]
+  font: fonts/numeralfont.otf
+  fontsize: 16
+influence-limit:
+  loc: [268, 413]
+  font: fonts/numeralfont.otf
+  fontsize: 16
+text:
+  loc: [45, 352]
+  font: fonts/textfont.otf
+  fontsize: 14
+  width:  200
+  height: 80
+template_image:
+  shaper:             identity/identity_shaper.png
+  criminal:           identity/identity_criminal.png
+  anarch:             identity/identity_anarch.png
+  neutral-runner:     identity/identity_neutral_runner.png
+  sunny:              identity/identity_sunny.png
+  apex:               identity/identity_apex.png
+  adam:               identity/identity_adam.png
+  weyland-consortium: identity/identity_weyland.png
+  jinteki:            identity/identity_jinteki.png
+  haas-bioroid:       identity/identity_hb.png
+  nbn:                identity/identity_nbn.png
+  neutral-corp:       identity/identity_neutral_corp.png

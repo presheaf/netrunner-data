@@ -1,0 +1,34 @@
+title:
+  loc: [64, 229]
+  font: fonts/titlefont.otf
+  fontsize: 14
+subtype:
+  loc: [126, 266]
+  font: fonts/subtypefont.otf
+  fontsize: 12
+cost:
+  center: True
+  loc: [38, 35]
+  font: fonts/numeralfont.otf
+  fontsize: 23
+  fontcolor: [255, 255, 255]
+text:
+  loc: [48, 291]
+  font: fonts/textfont.otf
+  fontsize: 14
+  width:  240
+  height: 106
+influence-1:
+  loc: [291, 384]
+influence-2:
+  loc: [291, 368]
+atoms:
+  influence-pip:  atoms/influence_pip.png
+template_image:
+  shaper:         hardware/hardware_shaper.png
+  criminal:       hardware/hardware_criminal.png
+  anarch:         hardware/hardware_anarch.png
+  neutral-runner: hardware/hardware_neutral_runner.png
+  sunny:          hardware/hardware_sunny.png
+  apex:           hardware/hardware_apex.png
+  adam:           hardware/hardware_adam.png

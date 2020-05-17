@@ -1,0 +1,34 @@
+title:
+  loc: [27, 28]
+  font: fonts/titlefont.otf
+  fontsize: 14
+subtype:
+  loc: [94, 286]
+  font: fonts/subtypefont.otf
+  fontsize: 12
+agenda-points:
+  loc: [26, 226]
+  font: fonts/numeralfont.otf
+  fontsize: 30
+advancement-requirement:
+  loc: [271, 18]
+  font: fonts/numeralfont.otf
+  fontsize: 30
+influence-1:
+  loc: [44, 412]
+influence-2:
+  loc: [61, 412]
+text:
+  loc: [36, 307]
+  font: fonts/textfont.otf
+  fontsize: 14
+  width:  242
+  height: 90
+atoms:
+  influence-pip:      atoms/influence_pip.png
+template_image:
+  weyland-consortium: agenda/agenda_weyland.png
+  jinteki:            agenda/agenda_jinteki.png
+  haas-bioroid:       agenda/agenda_hb.png
+  nbn:                agenda/agenda_nbn.png
+  neutral-corp:       agenda/agenda_neutral_corp.png
