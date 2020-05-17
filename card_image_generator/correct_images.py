@@ -10,7 +10,9 @@ from edn_format.edn_lex import Keyword
 
 
 sets_to_proxy = {
-    'core-set',
+    'core',
+    'revised-core',
+    'system-core-2019',
     'genesis',
     'creation-and-control',
     'spin',
@@ -20,7 +22,8 @@ sets_to_proxy = {
 
 raw_data_edn_path = sys.argv[1]
 image_dir = sys.argv[2]
-proxygen_path = sys.argv[3]
+edn_dir = sys.argv[3]
+proxygen_path = sys.argv[4]
 tmp_path = 'tmp.edn'
 
 with open(raw_data_edn_path) as f:
@@ -31,14 +34,9 @@ for card_dict in cards:
         continue
 
     code = str(card_dict[Keyword('code')])
-    with open(tmp_path, 'w') as f:
-        edn_format.dumps(card_dict, f)
-
+    edn_path = str(pathlib.path(edn_dir) / (card_dict[Keyword('normalizedtitle')] + '.edn'))
     img_path = str(pathlib.Path(image_dir) / f'{code}.png')
 
-    if not subprocess.run([f'python {proxygen_path}', tmp_path, img_path, img_path]):
+    print(f'Generating {code}')
+    if not subprocess.run(['python3', proxygen_path, edn_path, img_path, img_path]):
         print(f'Error generating {code}')
-
-    sys.exit(1)
-    
-os.remove(tmp_path)

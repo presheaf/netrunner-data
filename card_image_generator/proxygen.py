@@ -70,8 +70,8 @@ def break_and_resize(draw, font_size, font_path, width, height, text):
 
     split_text = '\n'.join(lines)
     text_height = draw.textsize(split_text, font=font)[1]
-    if text_height > height and fontsize > 8:
-        return break_and_resize(draw, font_size-1, font_path, width, height)
+    if text_height > height and font_size > 7:
+        return break_and_resize(draw, font_size-1, font_path, width, height, text)
     else:
         return split_text, font_size
 
@@ -94,7 +94,7 @@ card_type = card_dict['type']
 
 # fetch appropriate template
 # TODO: hardcoding will break if script is symlinked, consider adding script to package instead
-resource_dir = pathlib.Path(__file__) / 'templates'
+resource_dir = pathlib.Path(__file__).parent / 'assets'
 template_path = resource_dir / f'{card_type}.yaml'
 
 with open(template_path) as f:
