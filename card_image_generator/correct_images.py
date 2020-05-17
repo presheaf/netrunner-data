@@ -34,7 +34,7 @@ for card_dict in cards:
         continue
 
     code = str(card_dict[Keyword('code')])
-    edn_path = str(pathlib.path(edn_dir) / (card_dict[Keyword('normalizedtitle')] + '.edn'))
+    edn_path = str(pathlib.Path(edn_dir) / (card_dict[Keyword('normalizedtitle')] + '.edn'))
     img_path = str(pathlib.Path(image_dir) / f'{code}.png')
 
     print(f'Generating {code}')
