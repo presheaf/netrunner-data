@@ -5,7 +5,7 @@
  :id "ancestral-imager"
  :side :corp
  :subtype [:security]
- :text "Whenever the Runner jacks out, do 1 net damage."
+ :text "Whenever the Runner jacks out, do 2 net damage."
  :title "Ancestral Imager"
  :type :agenda
  :uniqueness false}

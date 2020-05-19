@@ -8,4 +8,4 @@
  :title "Team Sponsorship"
  :trash-cost 4
  :type :asset
- :uniqueness false}
+ :uniqueness true}

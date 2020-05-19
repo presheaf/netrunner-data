@@ -2,7 +2,7 @@
  :faction :jinteki
  :id "chronos-protocol-selective-mind-mapping"
  :influence-limit 15
- :minimum-deck-size 45
+ :minimum-deck-size 47
  :side :corp
  :subtype [:division]
  :text "For the first net damage the Runner suffers each turn, you may look at the Runner's grip and select the card that is trashed."
