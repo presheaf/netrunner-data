@@ -5,7 +5,7 @@
  :influence-cost 2
  :side :runner
  :subtype [:priority]
- :text "Play only as your first [click].\nThe first time you access an agenda this turn, gain 7[credit]."
+ :text "Play only as your first [click].\nThe first time you access an agenda this turn, gain 9[credit]."
  :title "Power to the People"
  :type :event
  :uniqueness false}

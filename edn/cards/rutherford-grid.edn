@@ -5,7 +5,7 @@
  :influence-cost 2
  :side :corp
  :subtype [:region]
- :text "The base trace strength of each trace during a run on this server is increased by 2.\nLimit 1 <strong>region</strong> per server."
+ :text "The base trace strength of each trace during a run on this server is increased by 3.\nLimit 1 <strong>region</strong> per server."
  :title "Rutherford Grid"
  :trash-cost 4
  :type :upgrade

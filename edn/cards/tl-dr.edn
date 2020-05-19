@@ -4,7 +4,7 @@
  :id "tl-dr"
  :influence-cost 2
  :side :corp
- :strength 4
+ :strength 5
  :subtype [:code-gate]
  :text "[subroutine] When the Runner encounters the next piece of ice during this run, that ice gains a second copy of each subroutine on it (after the original subroutine) for the remainder of the encounter."
  :title "TL;DR"

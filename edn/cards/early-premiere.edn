@@ -6,6 +6,6 @@
  :side :corp
  :text "When your turn begins, you may pay 1[credit]. If you do, place 1 advancement token on a card that can be advanced in a server."
  :title "Early Premiere"
- :trash-cost 2
+ :trash-cost 3
  :type :asset
  :uniqueness false}

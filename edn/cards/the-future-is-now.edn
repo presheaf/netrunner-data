@@ -6,7 +6,7 @@
  :influence-cost 0
  :side :corp
  :subtype [:initiative]
- :text "When you score The Future is Now, search R&D for a card and add it to HQ. Shuffle R&D."
+ :text "When you score The Future is Now, search R&D for up to 2 cards and add them to HQ. Shuffle R&D."
  :title "The Future is Now"
  :type :agenda
  :uniqueness false}

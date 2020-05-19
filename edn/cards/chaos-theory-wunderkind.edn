@@ -6,7 +6,7 @@
  :minimum-deck-size 40
  :side :runner
  :subtype [:g-mod]
- :text "+1[mu]"
+ :text "+2[mu]"
  :title "Chaos Theory: Wünderkind"
  :type :identity
  :uniqueness false}

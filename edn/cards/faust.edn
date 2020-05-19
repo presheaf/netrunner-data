@@ -5,7 +5,7 @@
  :influence-cost 2
  :memory-cost 1
  :side :runner
- :strength 2
+ :strength 0
  :subtype [:icebreaker :ai]
  :text "<strong>Trash a card from your grip:</strong> Break ice subroutine.\n<strong>Trash a card from your grip:</strong> +2 strength."
  :title "Faust"

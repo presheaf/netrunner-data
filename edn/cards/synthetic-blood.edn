@@ -5,7 +5,7 @@
  :influence-cost 2
  :side :runner
  :subtype [:genetics]
- :text "The first time you take damage each turn, draw 1 card."
+ :text "The first time you take damage each turn, draw 2 cards."
  :title "Synthetic Blood"
  :type :resource
  :uniqueness true}

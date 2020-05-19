@@ -7,6 +7,6 @@
  :subtype [:ambush]
  :text "If Edge of World is installed and you pay 3[credit] when the Runner accesses it, do 1 brain damage for each piece of ice protecting this server."
  :title "Edge of World"
- :trash-cost 0
+ :trash-cost 2
  :type :asset
  :uniqueness false}
