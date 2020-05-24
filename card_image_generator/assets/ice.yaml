@@ -22,8 +22,8 @@ trashcan:
   loc: [255, 200] # ?
 trash-cost:
   loc: [260, 208] # ?
-  font: fonts/numeralfont.otf
-  fontsize: 20
+  font: fonts/coluna.otf
+  fontsize: 25
   fontcolor: [152, 130, 119]
 influence-1:
   loc: [287, 380]
