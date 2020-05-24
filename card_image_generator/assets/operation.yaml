@@ -16,8 +16,8 @@ trashcan:
   loc: [250, 370]
 trash-cost:
   loc: [265, 375]
-  font: fonts/numeralfont.otf
-  fontsize: 20
+  font: fonts/coluna.otf
+  fontsize: 25
   fontcolor: [152, 130, 119]
 influence-1:
   loc: [47, 413]
@@ -27,7 +27,7 @@ text:
   loc: [40, 292]
   font: fonts/textfont.otf
   fontsize: 14
-  width:  202
+  width:  230
   height: 150
 atoms:
   influence-pip:      atoms/influence_pip.png
