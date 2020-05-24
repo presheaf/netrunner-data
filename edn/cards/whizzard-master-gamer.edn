@@ -2,11 +2,11 @@
  :deck-limit 1
  :faction :anarch
  :id "whizzard-master-gamer"
- :influence-limit 15
+ :influence-limit 12
  :minimum-deck-size 45
  :side :runner
  :subtype [:natural]
- :text "2[recurring-credit]\nUse these credits to trash cards."
+ :text "3[recurring-credit]\nUse these credits to trash cards."
  :title "Whizzard: Master Gamer"
  :type :identity
  :uniqueness false}
