@@ -13,9 +13,9 @@ cost:
   fontsize: 23
   fontcolor: [255, 255, 255]
 trash-cost:
-  loc: [276, 370]
-  font: fonts/coluna.otf
-  fontsize: 25
+  loc: [276, 369]
+  font: fonts/impact.ttf
+  fontsize: 19
   fontcolor: [152, 130, 119]
 influence-1:
   loc: [47, 411]
