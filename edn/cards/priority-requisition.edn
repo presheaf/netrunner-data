@@ -6,7 +6,7 @@
  :influence-cost 0
  :side :corp
  :subtype [:security]
- :text "When you score Priority Requisition, you may rez a piece of ice ignoring all costs."
+ :text "When you score Priority Requisition, you may rez up to two pieces of ice, ignoring all costs."
  :title "Priority Requisition"
  :type :agenda
  :uniqueness false}

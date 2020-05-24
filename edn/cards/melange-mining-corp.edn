@@ -6,6 +6,6 @@
  :side :corp
  :text "[click], [click], [click]: Gain 7[credit]."
  :title "Melange Mining Corp."
- :trash-cost 1
+ :trash-cost 2
  :type :asset
  :uniqueness false}
