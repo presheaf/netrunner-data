@@ -1,3 +1,4 @@
+import itertools
 import sys
 import edn_format
 import re
@@ -18,11 +19,9 @@ def pyfy(obj):
 
 
 def parse_text(text):
-    """Given card text from NRDB, strip formatting tags and replace icon symbols by the
-    appropriate characters in the font"""
+    """Given card text from NRDB, strip formatting tags and replace
+    icon symbols by the appropriate characters in the font"""
     SYMBOL_TABLE = {
-        '<strong>': '',
-        '</strong>': '',
         '<trace>': '',
         '</trace>': ':',
         '<li>': '\n ' + chr(183),
@@ -41,7 +40,11 @@ def parse_text(text):
         '[nbn]': chr(145) + ' ',
         '[weyland]': chr(146) + ' ',
     }
-    text = re.sub('<errata>.*?</errata>', '', text)
+    text = re.sub('<errata>(.*?)</errata>', '', text)
+    text = re.sub(
+        '<strong>(.*?)</strong>',
+        lambda m: ''.join([chr(ord(c)+531) for c in m.group(1)]), text
+    )
 
     for symbol, font_char in SYMBOL_TABLE.items():
         text = text.replace(symbol, font_char)
@@ -55,25 +58,32 @@ def break_and_resize(draw, font_size, font_path, width, height, text):
 
     font = ImageFont.truetype(font_path, size=font_size)
     words = re.split(r'(\s+)', text)
-
+    num_extra_linebreaks = text.count('\n')
+    end_break_long = []  # list so that element i is True iff linebreak i is long
     lines = []
     while words:
         line = words.pop(0)
 
         while words and (draw.textsize(line + words[0], font=font)[0] < width):
             w = words.pop(0)
-            if re.match('\n+', w):
+            if re.match('(\s)*\n+(\s)*', w):
+                end_break_long.append(True)
                 break
             line += w
+        else:
+            end_break_long.append(False)
 
         lines.append(line)
 
+    _, line_height = draw.textsize('a')
     split_text = '\n'.join(lines)
     text_height = draw.textsize(split_text, font=font)[1]
+    text_height += 0.5 * num_extra_linebreaks * line_height
+
     if text_height > height and font_size > 7:
         return break_and_resize(draw, font_size-1, font_path, width, height, text)
     else:
-        return split_text, font_size
+        return split_text, font_size, end_break_long
 
 
 try:
@@ -176,24 +186,51 @@ for item in [
 
     if item == 'text':
         # need to parse text and maybe change fontsize
+        # also treat in-text linebreaks as indicating longer breaks
         textwidth, textheight = [template_dict['text'][s] for s in ['width', 'height']]
-        text, fontsize = break_and_resize(draw, font_size, font_path,
-                                          textwidth, textheight,
-                                          parse_text(card_dict['text']))
+        text, font_size, end_break_long = break_and_resize(
+            draw, font_size, font_path, textwidth,
+            textheight, parse_text(card_dict['text'])
+        )
+        font = ImageFont.truetype(font_path, size=font_size)
+
+        lineheight = draw.textsize('a', font=font)[1]
+        linespacing = draw.textsize('a\na', font=font)[1] - 2*lineheight
+        x, y = pos
+        lines = text.split('\n')
+        assert len(end_break_long) == len(lines)
+        for is_special, line in zip(end_break_long, lines):
+            line = line.strip()
+            draw.text((x, y), line, font=font, fill=font_color)
+            y += lineheight + (2 if is_special else 1) * linespacing
+        continue
 
     if template_dict[item].get('center'):
         tw, _ = draw.textsize(str(text), font)
         pos = (pos[0] - tw/2, pos[1])
 
     if template_dict[item].get('rotation') is None:
-        # need to draw text at an angle
+        if template_dict[item].get('backdrop'):
+            bd_color = tuple(template_dict[item]['backdrop']['color'])
+            width = template_dict[item]['backdrop']['width']
+            ox, oy = template_dict[item]['backdrop']['offset']
+            for dx, dy in [(-width, -width), (width, -width),
+                           (-width, width), (width, width)]:
+                draw.text((pos[0]+dx+ox, pos[1]+dy+oy), str(text),
+                          font=font, fill=bd_color)
+
         draw.text(pos, str(text), font=font, fill=font_color)
+
     else:
+        # need to draw text at an angle
+        assert not template_dict[item].get('backdrop'), "Backdrop and rotation not supported"
         if item == 'subtype':
             text = 'ICE:  ' + text
         text_width, text_height = draw.textsize(str(text), font=font)
-        tmpimg = Image.new('RGBA', tuple([max(text_width, text_height)]*2), color=(0, 0, 0, 0))
-        ImageDraw.Draw(tmpimg).text((0, 0), str(text), font=font, fill=font_color)
+        tmpimg = Image.new('RGBA', tuple([max(text_width, text_height)]*2),
+                           color=(0, 0, 0, 0))
+        ImageDraw.Draw(tmpimg).text((0, 0), str(text),
+                                    font=font, fill=font_color)
         tmpimg = tmpimg.rotate(template_dict[item].get('rotation'))
         outimg.paste(tmpimg, pos, mask=tmpimg)
 

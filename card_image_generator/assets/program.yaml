@@ -16,7 +16,12 @@ memory-cost:
   center: True
   loc: [85, 19]
   font: fonts/numeralfont.otf
-  fontsize: 14
+  fontsize: 16
+  fontcolor: [230, 230, 230]
+  backdrop:
+    width: 1
+    offset: [0, 0]
+    color: [0, 0, 0]
 strength:
   loc: [20, 405]
   font: fonts/numeralfont.otf

@@ -7,13 +7,23 @@ subtype:
   font: fonts/subtypefont.otf
   fontsize: 12
 agenda-points:
-  loc: [26, 226]
+  loc: [24, 222]
   font: fonts/numeralfont.otf
-  fontsize: 30
+  fontsize: 34
+  fontcolor: [215, 233, 237]
+  backdrop:
+    width: 1.6
+    offset: [0.75, 0.5]
+    color: [0, 0, 0]
 advancement-requirement:
-  loc: [271, 18]
+  loc: [270, 15]
   font: fonts/numeralfont.otf
-  fontsize: 30
+  fontsize: 32
+  fontcolor: [255, 255, 255]
+  backdrop:
+    width: 1.6
+    offset: [1, 0.5]
+    color: [0, 0, 0]
 influence-1:
   loc: [44, 412]
 influence-2:
