@@ -29,6 +29,6 @@ template_image:
   criminal:       resource/resource_criminal.png
   anarch:         resource/resource_anarch.png
   neutral-runner: resource/resource_neutral_runner.png
-  sunny:          resource/resource_sunny.png
+  sunny-lebeau:   resource/resource_sunny.png
   apex:           resource/resource_apex.png
   adam:           resource/resource_adam.png

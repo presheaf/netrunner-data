@@ -71,7 +71,7 @@ template_image:
   criminal:           identity/identity_criminal.png
   anarch:             identity/identity_anarch.png
   neutral-runner:     identity/identity_neutral_runner.png
-  sunny:              identity/identity_sunny.png
+  sunny-lebeau:       identity/identity_sunny.png
   apex:               identity/identity_apex.png
   adam:               identity/identity_adam.png
   weyland-consortium: identity/identity_weyland.png
