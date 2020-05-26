@@ -33,35 +33,45 @@ base-link:
   font: fonts/numeralfont.otf
   fontsize: 32
   fontcolor: [255, 255, 255]
+  backdrop:
+    width: 0.8
+    offset: [1.1, 0.3]
+    color: [0, 0, 0]
 minimum-deck-size:
   loc: 
-    anarch: &rmdsloc [268, 390]
+    anarch: &rmdsloc [280, 388]
     shaper: *rmdsloc
     criminal: *rmdsloc
     neutral-runner: *rmdsloc
-    weyland-consortium: &cmdsloc [20, 388]
+    weyland-consortium: &cmdsloc [32, 387]
     jinteki: *cmdsloc
     haas-bioroid: *cmdsloc
     nbn: *cmdsloc
     neutral-corp: *cmdsloc
   font: fonts/numeralfont.otf
-  fontsize: 16
+  fontsize: 18
+  center: True
 influence-limit:
   loc: 
-    anarch: &rinfloc [268, 413]
+    anarch: &rinfloc [280, 413]
     shaper: *rinfloc
     criminal: *rinfloc
     neutral-runner: *rinfloc
-    weyland-consortium: &cinfloc [20, 413]
+    weyland-consortium: &cinfloc [32, 411]
     jinteki: *cinfloc
     haas-bioroid: *cinfloc
     nbn: *cinfloc
     neutral-corp: *cinfloc
+  center: True
   font: fonts/numeralfont.otf
-  fontsize: 16
+  fontsize: 18
   fontcolor: [255, 255, 255]
+  backdrop:
+    width: 0.7
+    offset: [0.8, 0]
+    color: [0, 0, 0]
 text:
-  loc: [45, 352]
+  loc: [60, 359]
   font: fonts/textfont.otf
   fontsize: 14
   width:  200

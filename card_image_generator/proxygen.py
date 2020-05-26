@@ -162,8 +162,12 @@ for item in [
         'influence-limit'
 ]:
     if item == 'subtype':
+        subtype_replacements = {
+            'ap': 'AP',
+            'g-mod': 'G-mod'
+        }
         text = ' - '.join(
-            [st.replace('-', ' ').title() if st.lower() != 'ap' else 'AP'
+            [subtype_replacements.get(st.lower(), st.replace('-', ' ').title())
              for st in card_dict.get('subtype', [])]
         )
     elif card_type == 'identity' and item in {'title', 'subtitle'}:
