@@ -22,8 +22,9 @@ def parse_text(text):
     """Given card text from NRDB, strip formatting tags and replace
     icon symbols by the appropriate characters in the font"""
     SYMBOL_TABLE = {
-        '<trace>': '',
-        '</trace>': ':',
+        '': '',
+        '<em>': '',
+        '</em>': '',
         '<li>': '\n ' + chr(183),
         '[credit]': chr(127) + ' ',
         '[link]': chr(128) + ' ',
@@ -44,6 +45,10 @@ def parse_text(text):
     text = re.sub(
         '<strong>(.*?)</strong>',
         lambda m: ''.join([chr(ord(c)+531) for c in m.group(1)]), text
+    )
+    text = re.sub(
+        '<trace>(.*?)</trace>',
+        lambda m: ''.join([chr(ord(c)+531) for c in m.group(1)]) + ' –', text
     )
 
     for symbol, font_char in SYMBOL_TABLE.items():
