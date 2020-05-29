@@ -7,7 +7,7 @@
  :side :runner
  :strength 0
  :subtype [:icebreaker :ai]
- :text "<strong>Trash a card from your grip:</strong> Break ice subroutine.\n<strong>Trash a card from your grip:</strong> +2 strength."
+ :text "<strong>Trash a card from your grip:</strong> Break ice subroutine."
  :title "Faust"
  :type :program
  :uniqueness false}
