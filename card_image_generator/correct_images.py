@@ -36,13 +36,13 @@ for card_dict in cards:
 
     code = str(card_dict[Keyword('code')])
     edn_path = str(pathlib.Path(edn_dir) / (card_dict[Keyword('normalizedtitle')] + '.edn'))
-    img_path = str(pathlib.Path(image_dir) / f'{code}.png')
+    img_path = pathlib.Path(image_dir) / f'{code}.png'
 
     print(f'Generating {code}')
-    if not subprocess.run(['python3', proxygen_path, edn_path, img_path, img_path]):
+    if not subprocess.run(['python3', proxygen_path, edn_path, str(img_path), str(img_path)]):
         print(f'Error generating {code}')
 
     for prev_code in map(str, card_dict.get(Keyword('previous-versions'), [])):
         print(f'Copying {code} to {prev_code}')
-        other_img_path = str(pathlib.Path(image_dir) / f'{prev_code}.png')
+        other_img_path = pathlib.Path(image_dir) / f'{prev_code}.png'
         other_img_path.write_bytes(img_path.read_bytes())
