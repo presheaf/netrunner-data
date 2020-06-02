@@ -17,7 +17,8 @@ sets_to_proxy = {
     'creation-and-control',
     'spin',
     'honor-and-profit',
-    'lunar'
+    'lunar',
+    'order-and-chaos'
 }
 
 raw_data_edn_path = sys.argv[1]
