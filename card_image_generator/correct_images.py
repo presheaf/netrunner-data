@@ -42,7 +42,7 @@ for card_dict in cards:
     if not subprocess.run(['python3', proxygen_path, edn_path, img_path, img_path]):
         print(f'Error generating {code}')
 
-    for prev_code in map(str, card_dict[Keyword('previous-versions')]):
+    for prev_code in map(str, card_dict.get(Keyword('previous-versions'), [])):
         print(f'Copying {code} to {prev_code}')
         other_img_path = str(pathlib.Path(image_dir) / f'{prev_code}.png')
         other_img_path.write_bytes(img_path.read_bytes())
