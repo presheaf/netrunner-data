@@ -3,7 +3,7 @@
  :faction :apex
  :id "endless-hunger"
  :influence-cost 2
- :memory-cost 4
+ :memory-cost 3
  :side :runner
  :strength 11
  :subtype [:icebreaker]

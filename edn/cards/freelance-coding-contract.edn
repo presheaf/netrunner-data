@@ -5,7 +5,7 @@
  :influence-cost 1
  :side :runner
  :subtype [:job]
- :text "Trash up to 5 programs from your grip. Gain 3[credit] for each program trashed."
+ :text "Trash up to 8 programs from your grip. Gain 2[credit] for each program trashed."
  :title "Freelance Coding Contract"
  :type :event
  :uniqueness false}

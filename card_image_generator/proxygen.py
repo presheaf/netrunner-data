@@ -164,7 +164,8 @@ for item in [
     if item == 'subtype':
         subtype_replacements = {
             'ap': 'AP',
-            'g-mod': 'G-mod'
+            'g-mod': 'G-mod',
+            'ai': 'AI'
         }
         text = ' - '.join(
             [subtype_replacements.get(st.lower(), st.replace('-', ' ').title())
@@ -178,7 +179,9 @@ for item in [
             text = chr(128) + text
 
     if text is None:
-        if item == 'cost' and card_type not in {'agenda', 'identity'}:
+        if (item in {'cost', 'strength'}
+            and card_type not in {'agenda', 'identity'}
+            and item in card_dict):
             text = 'X'
         else:
             continue
