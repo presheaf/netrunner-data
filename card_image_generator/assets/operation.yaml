@@ -3,11 +3,11 @@ title:
   font: fonts/titlefont.otf
   fontsize: 13
 type:
-  loc: [37, 261]
+  loc: [35, 263]
   font: fonts/typefont.ttf
   fontsize: 14
 subtype:
-  loc: [114, 265]
+  loc: [110, 267]
   font: fonts/subtypefont.otf
   fontsize: 12
 cost:
