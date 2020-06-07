@@ -1,14 +1,18 @@
 title:
-  loc: [68, 18]
+  loc: [70, 18]
   font: fonts/titlefont.otf
-  fontsize: 14
+  fontsize: 13
 subtype:
   loc: [83, 280]
   font: fonts/subtypefont.otf
   fontsize: 12
+type:
+  loc: [31, 275]
+  font: fonts/typefont.ttf
+  fontsize: 15
 cost:
   center: True
-  loc: [35, 32]
+  loc: [38, 30]
   font: fonts/numeralfont.otf
   fontsize: 23
   fontcolor: [255, 255, 255]
@@ -19,9 +23,9 @@ text:
   width:  245
   height: 100
 influence-1:
-  loc: [289, 384]
+  loc: [296, 393]
 influence-2:
-  loc: [289, 367]
+  loc: [296, 376]
 atoms:
   influence-pip:  atoms/influence_pip.png
 template_image:
