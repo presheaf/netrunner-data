@@ -6,22 +6,22 @@
  {:id "core"
   :name "Core"
   :position 1
-  :rotated true
+  :rotated false
   :size 1}
  {:id "genesis"
   :name "Genesis"
   :position 2
-  :rotated true
+  :rotated false
   :size 6}
  {:id "creation-and-control"
   :name "Creation and Control"
   :position 3
-  :rotated true
+  :rotated false
   :size 1}
  {:id "spin"
   :name "Spin"
   :position 4
-  :rotated true
+  :rotated false
   :size 6}
  {:id "honor-and-profit"
   :name "Honor and Profit"
@@ -31,7 +31,7 @@
  {:id "lunar"
   :name "Lunar"
   :position 6
-  :rotated true
+  :rotated false
   :size 6}
  {:id "order-and-chaos"
   :name "Order and Chaos"
@@ -66,13 +66,13 @@
  {:id "terminal-directive"
   :name "Terminal Directive"
   :position 13
-  :rotated true
+  :rotated false
   :size 1}
  ;; Position 14-19 were deliberately skipped when Revised Core was released
  {:id "revised-core"
   :name "Revised Core"
   :position 20
-  :rotated true
+  :rotated false
   :size 1}
  {:id "kitara"
   :name "Kitara"
