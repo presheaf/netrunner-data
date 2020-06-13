@@ -13,19 +13,28 @@ title:
   fontsize: 14
 subtitle:                       # e.g. "Dispossessed Ristie"
   loc:
-    anarch: &rstloc [145, 41]
-    shaper: *rstloc
-    criminal: *rstloc
-    neutral-runner: *rstloc
-    weyland-consortium: &cstloc [28, 55]
-    jinteki: *cstloc
-    haas-bioroid: *cstloc
-    nbn: *cstloc
-    neutral-corp: *cstloc
+    anarch: &rstitleloc [145, 41]
+    shaper: *rstitleloc
+    criminal: *rstitleloc
+    neutral-runner: *rstitleloc
+    weyland-consortium: &cstitleloc [24, 57]
+    jinteki: *cstitleloc
+    haas-bioroid: *cstitleloc
+    nbn: *cstitleloc
+    neutral-corp: *cstitleloc
   font: fonts/titlefont.otf
-  fontsize: 12
+  fontsize: 9
 subtype:
-  loc: [113, 333]
+  loc:
+    anarch: &rstypeloc [115, 333]
+    shaper: *rstypeloc
+    criminal: *rstypeloc
+    neutral-runner: *rstypeloc
+    weyland-consortium: &cstypeloc [107, 333]
+    jinteki: *cstypeloc
+    haas-bioroid: *cstypeloc
+    nbn: *cstypeloc
+    neutral-corp: *cstypeloc 
   font: fonts/subtypefont.otf
   fontsize: 12
 base-link:

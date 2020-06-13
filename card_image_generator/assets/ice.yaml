@@ -1,7 +1,12 @@
 title:
   loc: [76, 21]
   font: fonts/titlefont.otf
-  fontsize: 14
+  fontsize: 13
+type:                           # TODO: Support needs to be added for "ICE:" to be aligned with subtype
+  rotation: 90
+  loc: [1, 1]
+  font: fonts/typefont.ttf
+  fontsize: 1
 subtype:
   rotation: 90
   loc: [21, 83]
@@ -9,7 +14,7 @@ subtype:
   fontsize: 12
 cost:
   center: True
-  loc: [36, 28]
+  loc: [37, 27]
   font: fonts/numeralfont.otf
   fontsize: 23
   fontcolor: [255, 255, 255]
@@ -19,18 +24,18 @@ strength:
   font: fonts/numeralfont.otf
   fontsize: 30
 trashcan:
-  loc: [255, 200] # ?
+  loc: [245, 193]
 trash-cost:
-  loc: [260, 208] # ?
-  font: fonts/coluna.otf
-  fontsize: 25
+  loc: [259, 197]
+  font: fonts/impact.ttf
+  fontsize: 19
   fontcolor: [152, 130, 119]
 influence-1:
-  loc: [287, 380]
+  loc: [293, 387]
 influence-2:
-  loc: [287, 363]
+  loc: [293, 370]
 text:
-  loc: [68, 73]
+  loc: [71, 65]
   font: fonts/textfont.otf
   fontsize: 14
   width:  202

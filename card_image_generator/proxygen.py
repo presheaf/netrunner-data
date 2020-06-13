@@ -128,6 +128,9 @@ if background_img_path:
 
 outimg.paste(template, mask=template)
 
+# TODO: Correct templates to use higher def images
+outimg = outimg.resize((312, 444))
+
 draw = ImageDraw.Draw(outimg)
 
 # add inf dots
@@ -137,6 +140,8 @@ if card_dict.get('influence-cost'):
     p0, p1 = [template_dict[f'influence-{i}']['loc'] for i in (1, 2)]
     for i in range(card_dict['influence-cost']):
         p = tuple(p0[j] + i*(p1[j] - p0[j]) for j in range(2))
+        # now center
+        p = (int(p[0] - infimg.width/2), int(p[1] - infimg.height/2))
         outimg.paste(infimg, p, mask=infimg)
 
 # add trashcan icon to trashable operations/ice
@@ -159,7 +164,8 @@ for item in [
         'strength',
         'base-link',
         'minimum-deck-size',
-        'influence-limit'
+        'influence-limit',
+        'type'
 ]:
     if item == 'subtype':
         subtype_replacements = {
@@ -171,6 +177,10 @@ for item in [
             [subtype_replacements.get(st.lower(), st.replace('-', ' ').title())
              for st in card_dict.get('subtype', [])]
         )
+    elif item == 'type':
+        if card_type == 'identity':
+            continue
+        text = card_type.upper() + ':'  # TODO: only have : if a subtype
     elif card_type == 'identity' and item in {'title', 'subtitle'}:
         text = card_dict['title'].split(': ')[0 if item == 'title' else 1]
     else:
@@ -218,6 +228,7 @@ for item in [
         continue
 
     if template_dict[item].get('center'):
+        # TODO: center in height here as well
         tw, _ = draw.textsize(str(text), font)
         pos = (pos[0] - tw/2, pos[1])
 
