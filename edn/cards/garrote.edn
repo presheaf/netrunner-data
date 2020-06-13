@@ -1,11 +1,11 @@
-{:cost 7
+{:cost 5
  :deck-limit 3
  :faction :criminal
  :id "garrote"
  :influence-cost 3
  :memory-cost 2
  :side :runner
- :strength 3
+ :strength 2
  :subtype [:icebreaker :killer]
  :text "1[credit]: Break <strong>sentry</strong> subroutine.\n1[credit]: +1 strength."
  :title "Garrote"
