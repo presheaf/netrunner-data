@@ -6,7 +6,7 @@
  :memory-cost 1
  :side :runner
  :subtype [:virus]
- :text "The Corp cannot score an agenda on the same turn he or she installed it.\nTrash Clot if the Corp purges virus counters."
+ :text "The Corp cannot score an agenda on the same turn he or she installed it.\nRemove Clot from the game if the Corp purges virus counters."
  :title "Clot"
  :type :program
  :uniqueness false}

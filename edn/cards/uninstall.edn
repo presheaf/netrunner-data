@@ -4,7 +4,7 @@
  :id "uninstall"
  :influence-cost 0
  :side :runner
- :text "Add an installed program or piece of hardware to your grip."
+ :text "Add up to two installed programs or pieces of hardware to your grip."
  :title "Uninstall"
  :type :event
  :uniqueness false}

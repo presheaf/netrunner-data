@@ -2,7 +2,7 @@
  :faction :weyland-consortium
  :id "argus-security-protection-guaranteed"
  :influence-limit 15
- :minimum-deck-size 45
+ :minimum-deck-size 40
  :side :corp
  :subtype [:corp]
  :text "Whenever the Runner steals an agenda, he or she must either take 1 tag or suffer 2 meat damage."

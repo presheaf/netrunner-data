@@ -5,7 +5,7 @@
  :id "license-acquisition"
  :side :corp
  :subtype [:expansion]
- :text "When you score License Acquisition, install and rez an asset or upgrade from Archives or HQ, ignoring all costs."
+ :text "When you score License Acquisition, install and rez up to two assets or upgrade from Archives or HQ, ignoring all costs."
  :title "License Acquisition"
  :type :agenda
  :uniqueness false}
