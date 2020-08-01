@@ -4,7 +4,7 @@
  :id "express-delivery"
  :influence-cost 1
  :side :runner
- :text "Look at the top 4 cards of your stack and add 1 of those cards to your grip. Shuffle your stack."
+ :text "Look at the top 6 cards of your stack and add 2 of those cards to your grip. Shuffle your stack."
  :title "Express Delivery"
  :type :event
  :uniqueness false}

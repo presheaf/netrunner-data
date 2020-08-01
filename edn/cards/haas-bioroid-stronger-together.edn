@@ -1,7 +1,7 @@
 {:deck-limit 1
  :faction :haas-bioroid
  :id "haas-bioroid-stronger-together"
- :influence-limit 15
+ :influence-limit 17
  :minimum-deck-size 40
  :side :corp
  :subtype [:megacorp]

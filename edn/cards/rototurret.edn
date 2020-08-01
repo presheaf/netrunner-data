@@ -4,7 +4,7 @@
  :id "rototurret"
  :influence-cost 1
  :side :corp
- :strength 0
+ :strength 1
  :subtype [:sentry :destroyer]
  :text "[subroutine] Trash 1 program.\n[subroutine] End the run."
  :title "Rototurret"
