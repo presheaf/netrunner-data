@@ -9,4 +9,4 @@
  :title "Clone Suffrage Movement"
  :trash-cost 2
  :type :asset
- :uniqueness false}
+ :uniqueness true}

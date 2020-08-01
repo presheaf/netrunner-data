@@ -5,7 +5,7 @@
  :id "remote-data-farm"
  :side :corp
  :subtype [:expansion]
- :text "Your maximum hand size is increased by 2."
+ :text "Your maximum hand size is increased by 4."
  :title "Remote Data Farm"
  :type :agenda
  :uniqueness false}

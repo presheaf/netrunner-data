@@ -5,7 +5,7 @@
  :influence-cost 2
  :side :corp
  :subtype [:political]
- :text "When your turn begins, you may draw 3 cards if there is no ice protecting this server. If you do, add 1 card from HQ to the bottom of R&D."
+ :text "When your turn begins, you may draw 2 cards if there is no ice protecting this server. If you do, add 1 card from HQ to the bottom of R&D."
  :title "Sensie Actors Union"
  :trash-cost 2
  :type :asset

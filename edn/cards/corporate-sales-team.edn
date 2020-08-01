@@ -6,7 +6,7 @@
  :influence-cost 0
  :side :corp
  :subtype [:expansion]
- :text "When you score Corporate Sales Team, place 10[credit] on it.\nWhen each player's turn begins, take 1[credit] from Corporate Sales Team."
+ :text "When you score Corporate Sales Team, place 7[credit] on it.\nWhen each player's turn begins, take 1[credit] from Corporate Sales Team."
  :title "Corporate Sales Team"
  :type :agenda
  :uniqueness false}

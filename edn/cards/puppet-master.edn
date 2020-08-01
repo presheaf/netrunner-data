@@ -5,7 +5,7 @@
  :id "puppet-master"
  :side :corp
  :subtype [:initiative]
- :text "Whenever the Runner makes a successful run, you may place 1 advancement token on a card that can be advanced."
+ :text "Whenever the Runner makes a successful run, you may place 3 advancement tokens on a card that can be advanced."
  :title "Puppet Master"
  :type :agenda
  :uniqueness false}

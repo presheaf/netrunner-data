@@ -8,4 +8,4 @@
  :text "Whenever you use a [trash] ability, gain 1[credit]."
  :title "Tech Trader"
  :type :resource
- :uniqueness false}
+ :uniqueness true}

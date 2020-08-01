@@ -5,7 +5,7 @@
  :id "improved-protein-source"
  :side :corp
  :subtype [:research]
- :text "When Improved Protein Source is scored or stolen, the Runner gains 4[credit]."
+ :text "When Improved Protein Source is scored or stolen, the Runner gains 2[credit]."
  :title "Improved Protein Source"
  :type :agenda
  :uniqueness false}

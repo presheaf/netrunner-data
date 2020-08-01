@@ -9,4 +9,4 @@
  :title "Bio-Ethics Association"
  :trash-cost 2
  :type :asset
- :uniqueness false}
+ :uniqueness true}

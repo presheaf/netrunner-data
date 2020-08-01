@@ -4,7 +4,7 @@
  :id "bailiff"
  :influence-cost 2
  :side :corp
- :strength 0
+ :strength 1
  :subtype [:barrier]
  :text "Whenever the Runner breaks a subroutine on Bailiff, gain 1[credit].\n[subroutine] End the run."
  :title "Bailiff"
