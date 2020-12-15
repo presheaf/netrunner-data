@@ -5,7 +5,7 @@
  :influence-cost 1
  :side :corp
  :subtype [:transaction]
- :text "Gain 3[credit] and draw 1 card."
+ :text "Gain 3[credit] and draw 2 cards."
  :title "Green Level Clearance"
  :type :operation
  :uniqueness false}

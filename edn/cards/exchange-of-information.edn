@@ -5,7 +5,7 @@
  :influence-cost 2
  :side :corp
  :subtype [:gray-ops :double]
- :text "Play only if the Runner is tagged.\nAs an additional cost to play this operation, spend [click].\nSwap an agenda in your score area with an agenda in the Runner's score area."
+ :text "Play only if the Runner is tagged. As an additional cost to play this operation, spend [click].\nSwap an agenda in your score area with an agenda in the Runner's score area."
  :title "Exchange of Information"
  :type :operation
  :uniqueness false}

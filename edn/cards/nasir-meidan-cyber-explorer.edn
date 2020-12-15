@@ -2,7 +2,7 @@
  :deck-limit 1
  :faction :shaper
  :id "nasir-meidan-cyber-explorer"
- :influence-limit 17
+ :influence-limit 20
  :minimum-deck-size 45
  :side :runner
  :subtype [:cyborg]

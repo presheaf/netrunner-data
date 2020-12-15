@@ -1,7 +1,7 @@
 {:deck-limit 1
  :faction :jinteki
  :id "palana-foods-sustainable-growth"
- :influence-limit 15
+ :influence-limit 12
  :minimum-deck-size 45
  :side :corp
  :subtype [:division]

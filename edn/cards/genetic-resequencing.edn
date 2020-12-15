@@ -5,7 +5,7 @@
  :id "genetic-resequencing"
  :side :corp
  :subtype [:research]
- :text "When you score Genetic Resequencing, you may place 2 agenda counter on an agenda in your score area."
+ :text "When you score Genetic Resequencing, you may place 1 agenda counter on each agenda in your score area."
  :title "Genetic Resequencing"
  :type :agenda
  :uniqueness false}
