@@ -1,0 +1,12 @@
+{:cost 2
+ :deck-limit 3
+ :faction :neutral-runner
+ :id "cookies"
+ :influence-cost 0
+ :memory-cost 1
+ :side :runner
+ :text "Install Cookies on an unrezzed piece of ice.\nWhen you install Cookies, place 2 power counters on it and the Corp rezzes host ice, ignoring all costs.\n
+Whenever you encounter host ice, you may remove a hosted power counter from Cookies to bypass it."
+ :title "Cookies"
+ :type :program
+ :uniqueness true}
