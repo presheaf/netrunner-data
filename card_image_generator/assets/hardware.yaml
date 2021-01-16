@@ -33,6 +33,6 @@ template_image:
   criminal:       hardware/hardware_criminal.png
   anarch:         hardware/hardware_anarch.png
   neutral-runner: hardware/hardware_neutral_runner.png
-  sunny-lebeau:   hardware/hardware_sunny.png
-  apex:           hardware/hardware_apex.png
-  adam:           hardware/hardware_adam.png
+  sunny-lebeau:   hardware/hardware_neutral_runner.png
+  apex:           hardware/hardware_neutral_runner.png
+  adam:           hardware/hardware_neutral_runner.png

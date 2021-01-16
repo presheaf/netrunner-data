@@ -47,6 +47,6 @@ template_image:
   criminal:       program/program_criminal.png
   anarch:         program/program_anarch.png
   neutral-runner: program/program_neutral_runner.png
-  sunny-lebeau:   program/program_sunny.png
-  apex:           program/program_apex.png
-  adam:           program/program_adam.png
+  sunny-lebeau:   program/program_neutral_runner.png
+  apex:           program/program_neutral_runner.png
+  adam:           program/program_neutral_runner.png

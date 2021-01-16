@@ -90,9 +90,9 @@ template_image:
   criminal:           identity/identity_criminal.png
   anarch:             identity/identity_anarch.png
   neutral-runner:     identity/identity_neutral_runner.png
-  sunny-lebeau:       identity/identity_sunny.png
-  apex:               identity/identity_apex.png
-  adam:               identity/identity_adam.png
+  sunny-lebeau:       identity/identity_neutral_runner.png
+  apex:               identity/identity_neutral_runner.png
+  adam:               identity/identity_neutral_runner.png
   weyland-consortium: identity/identity_weyland.png
   jinteki:            identity/identity_jinteki.png
   haas-bioroid:       identity/identity_hb.png
