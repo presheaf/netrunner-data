@@ -5,7 +5,7 @@
  :influence-cost 0
  :side :runner
  :subtype [:cybernetic]
- :text "When you install Brain Cage, suffer 1 brain damage.\nYour maximum hand size is increased by 3."
+ :text "When you install Brain Cage, suffer 1 brain damage.\nYour maximum hand size is increased by 4."
  :title "Brain Cage"
  :type :hardware
  :uniqueness true}

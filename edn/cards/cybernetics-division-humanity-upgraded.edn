@@ -1,7 +1,7 @@
 {:deck-limit 1
  :faction :haas-bioroid
  :id "cybernetics-division-humanity-upgraded"
- :influence-limit 17
+ :influence-limit 20
  :minimum-deck-size 40
  :side :corp
  :subtype [:division]

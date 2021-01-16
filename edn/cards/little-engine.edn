@@ -6,7 +6,7 @@
  :side :corp
  :strength 7
  :subtype [:code-gate]
- :text "[subroutine] End the run.\n[subroutine] End the run.\n[subroutine] The Runner gains 5[credit]."
+ :text "[subroutine] End the run.\n[subroutine] End the run.\n[subroutine] The Runner gains 4[credit]."
  :title "Little Engine"
  :type :ice
  :uniqueness false}
