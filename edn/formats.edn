@@ -3,10 +3,12 @@
   :sets ["core-set"
          "creation-and-control"
          "honor-and-profit"
-         "order-and-chaos"]
+         "order-and-chaos"
+         "data-and-destiny"]
   :cycles ["genesis"
            "spin"
-           "lunar"]
+           "lunar"
+           "sansan"]
   :mwl nil}
  {:id "everything"
   :name "Everything"
