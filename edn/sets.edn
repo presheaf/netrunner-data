@@ -637,14 +637,4 @@
   :name "Uprising"
   :position 3
   :set-type :data-pack
-  :size 65}
- {:code "seasonal"
-  :cycle-id "holiday"
-  :date-release "2030-1-1"
-  :deluxe false
-  :ffg-id nil
-  :id "holiday"
-  :name "Holiday"
-  :position 1
-  :set-type :data-pack
-  :size 6}]
+  :size 65}]
