@@ -113,7 +113,7 @@ resource_dir = pathlib.Path(__file__).parent / 'assets'
 template_path = resource_dir / f'{card_type}.yaml'
 
 with open(template_path) as f:
-    template_dict = yaml.load(f)
+    template_dict = yaml.safe_load(f)
 template_img_path = resource_dir / template_dict['template_image'][card_dict['faction']]
 
 
