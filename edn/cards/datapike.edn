@@ -4,7 +4,7 @@
  :id "datapike"
  :influence-cost 0
  :side :corp
- :strength 2
+ :strength 3
  :subtype [:code-gate]
  :text "[subroutine] The Runner must pay 2[credit], if able. If the Runner cannot pay 2[credit], end the run.\n[subroutine] End the run."
  :title "Datapike"

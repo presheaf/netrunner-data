@@ -6,7 +6,7 @@
  :side :corp
  :strength 5
  :subtype [:barrier]
- :text "When you rez TMI, <trace>trace 4</trace> if unsuccessful, derez TMI.\n[subroutine] End the run."
+ :text "When you rez TMI, <trace>trace 3</trace> if unsuccessful, derez TMI.\n[subroutine] End the run."
  :title "TMI"
  :type :ice
  :uniqueness false}
